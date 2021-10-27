@@ -1,30 +1,4 @@
 featureFlags:
-  flags:
-  - flag:
-      name: asdf
-      identifier: asdf
-      description: ""
-      permanent: false
-      spec:
-        type: boolean
-        default:
-          onVariation: "true"
-          offVariation: "false"
-        variations:
-        - identifier: "true"
-          value: "true"
-        - identifier: "false"
-          value: "false"
-      environments:
-      - identifier: dev
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        state: "off"
-      - identifier: prod
-        default:
-          onVariation: "true"
-          offVariation: "false"
-        state: "on"
+  flags: []
   projectIdentifier: conorgitsync
   orgIdentifier: default
