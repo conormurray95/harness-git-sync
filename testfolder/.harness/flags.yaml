@@ -15,5 +15,11 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: demo
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: conorgitdemo
   orgIdentifier: default
